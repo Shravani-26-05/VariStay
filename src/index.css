@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 1rem);
+  }
+}
+
+/* Prevent text zoom on iOS input focus */
+input, select, textarea {
+  font-size: 16px !important;
+}
+
+/* Touch feedback and mobile scrollbar fixes */
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+body {
+  touch-action: manipulation;
+  overflow-x: hidden;
+  font-family: 'Inter', 'Mukta', sans-serif;
+  background-color: #FFFDF7;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFDF7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f97316;
+  border-radius: 9999px;
+}

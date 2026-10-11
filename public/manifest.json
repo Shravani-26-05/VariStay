@@ -1,0 +1,25 @@
+{
+  "short_name": "VariStay",
+  "name": "VariStay — Real-Time Pilgrim Shelter Platform",
+  "description": "Real-time shelter discovery platform for Varkaris during Pandharpur Wari pilgrimage.",
+  "icons": [
+    {
+      "src": "/images/vitthal_dindi_hall.jpg",
+      "type": "image/jpeg",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/vitthal_dindi_hall.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFFDF7",
+  "theme_color": "#ea580c",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "categories": ["travel", "utilities", "social"]
+}
